@@ -2,14 +2,37 @@ export const defaultState = {
     users: [{
         id: "U1",
         name: "Dev"
+    }, {
+        id: "U2",
+        name: "Biggie Smalls"
     }],
     groups: [{
         name: "To Do",
         id: "G1",
         owner: "U1"
+    }, {
+        name: "Doing",
+        id: "G2",
+        owner: "U1"
+    }, {
+        name: "Done",
+        id: "G3",
+        owner: "U1"
     }],
     tasks: [{
         name: "Do tests",
+        id: "T1",
+        group: "G1",
+        owner: "U1",
+        isComplete: false
+    }, {
+        name: "Refactor Tests",
+        id: "T1",
+        group: "G2",
+        owner: "U2",
+        isComplete: true
+    }, {
+        name: "Earn A Milli",
         id: "T1",
         group: "G1",
         owner: "U1",
