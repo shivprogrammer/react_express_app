@@ -10,4 +10,6 @@ const Navigation = () => (
             </h1>
         </Link>
     </div>
-)
+);
+
+export const ConnectNavigation = connect(state=>state)(Navigation)
