@@ -27,14 +27,14 @@ export const defaultState = {
         isComplete: false
     }, {
         name: "Refactor Tests",
-        id: "T1",
+        id: "T2",
         group: "G2",
         owner: "U2",
         isComplete: true
     }, {
         name: "Earn A Milli",
-        id: "T1",
-        group: "G1",
+        id: "T3",
+        group: "G3",
         owner: "U1",
         isComplete: false
     }],
